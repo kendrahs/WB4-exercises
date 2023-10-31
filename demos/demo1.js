@@ -26,7 +26,8 @@ let emp = {
     jobTitle: "Game Programmer", 
     payRate: 43.27
     };
-
+    
+//call properties
     console.log("Employee 1: " + emp1.name);
     console.log("Employee 2: " + emp2.name);
     // OR
