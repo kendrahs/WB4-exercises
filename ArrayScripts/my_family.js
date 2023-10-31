@@ -3,13 +3,9 @@ famNum = 6;
 let index;
 
 
-let myFamily = [
-    {name: "Jax"},
-    {name: "Mily"},
-    {name: "Rey"},
-    {name: "Lij"},
+let myFamily = ["J", "Millie", "K", "L"
 ]
 
-for (let i = 0; index < famNum; i++) {
+for (let index = 0; index < famNum; index++) {
     console.log(myFamily)
 }
