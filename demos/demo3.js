@@ -12,7 +12,7 @@ for (i = 0; i < 5; i++) {
 }
 //for as long as x is < 5, execute this block when its done, reelvauate expression, run again
 
-
+//while
 while(true) {
     //do something to look for value
     //if value foud, break out of look
