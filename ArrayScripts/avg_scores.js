@@ -6,12 +6,12 @@ let i;
 
 function getAverage(scores) {
     //loop
+    let total = 0;
     for (let i = 0; i < scores.length; i++){
         total += scores[i];
-        console.log(myScores)
-        let scoreAverage = total/scores.length
     }
     
+    let scoreAverage = total/scores.length
 }
 //add, div by length
-console.log("You're score average is" + scoreAverage(getAverage(yourScores)) + ".")
+console.log("You're score average is" + (getAverage(yourScores)) + ".")
