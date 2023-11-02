@@ -67,8 +67,8 @@ let vehicles = [
     }
    ];
 
-function gerVehicles(vehicles) {
-
+function getVehicles(vehicles) {
+    
 }
 
 //ARRAYS THAT SEARCH TO FIND
