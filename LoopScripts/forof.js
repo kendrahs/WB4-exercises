@@ -14,5 +14,4 @@ for (let kid of kids) {
     console.log(kid);
 }
 
-
 //////////////////////////
