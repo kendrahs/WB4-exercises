@@ -35,3 +35,46 @@ let courses = [
     Fee: "50.00",
     }
 ];
+
+   // for(let i = 0 ; i < courses.length; i++){
+
+    // }
+
+// When does the PROG200 course start?
+
+var prog200course;
+
+for(let i = 0 ; i < courses.length; i++){
+    if(courses[i].CourseId == "PROG200"){
+        prog200course = courses[i];
+    }
+}
+
+console.log("Prog200 starts: " + prog200course.StartDate);
+
+
+// What is the title of the PROJ500 course?
+
+
+
+// What are the titles of the courses that cost $50 or less?
+
+var inexpensiveCourses = [];
+for(let i = 0 ; i < courses.length; i++){
+    if(courses[i].Fee <= 50){
+        inexpensiveCourses.push(courses[i]);
+    }
+}
+
+for(let i = 0 ; i < inexpensiveCourses.length ; i++){
+    console.log(inexpensiveCourses[i].Title);
+}
+
+
+console.log("----------------------------------")
+console.log(courses);
+
+console.log("----------------------------------")
+console.log(inexpensiveCourses);
+
+// What classes meet in "Classroom 1"?
